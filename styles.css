@@ -318,6 +318,12 @@ a:focus-visible, .btn:focus-visible {
   box-shadow: 0 0 11px rgba(255, 43, 214, 0.35), inset 0 0 10px rgba(255, 43, 214, 0.14);
 }
 
+/* Text tile for projects without an icon yet */
+.app-icon-text {
+  font-size: 2rem; font-weight: 900; letter-spacing: 0.04em;
+  color: #eafff3; text-shadow: 0 0 12px rgba(0, 255, 170, 0.6);
+}
+
 /* ================= About ================= */
 .section-about { padding-top: 78px; }
 .about-inner {

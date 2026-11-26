@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JaeForge Archiver — JaeForge</title>
+<meta name="description" content="The JaeForge Archiver is a free file archiver powered by JaeForge's own compression engine — a codec designed in-house that beat gzip on source code in head-to-head benchmarks.">
+<link rel="icon" type="image/png" href="assets/icons/gassy-capys.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="wordmark" href="index.html" aria-label="JaeForge — home">Jae<span class="wm-forge">Forge</span></a>
+    <nav aria-label="Site">
+      <ul class="nav-list">
+        <li><a href="index.html#apps">Apps</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="https://elliotthornick.github.io/app-support/support.html">Support</a></li>
+        <li><a href="https://elliotthornick.github.io/app-support/privacy.html">Privacy</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <p class="back-link"><a href="index.html#tools">← All projects</a></p>
+    <section class="app-hero-inner accent-yellow" aria-labelledby="app-name">
+      <div class="app-icon-frame app-icon-frame-lg"><div class="app-icon-text" aria-hidden="true">JfA</div></div>
+      <div class="app-hero-text">
+        <h1 id="app-name">JaeForge Archiver</h1>
+        <p class="app-tagline">Our own compression engine, in a box.</p>
+        <p class="app-badge-row"><span class="badge badge-dev">In Testing</span></p>
+        <p class="app-price">Free · Windows &amp; Mac</p>
+      </div>
+    </section>
+  </div>
+
+  <section class="app-detail wrap accent-yellow">
+    <div class="app-copy">
+      <p>Most archivers wrap somebody else's algorithm. The JaeForge Archiver runs an engine designed and built here from first principles: instead of storing a file, it stores a <em>prediction</em> of the file plus the correction — and on source code, that idea beat the most widely used compressor in history.</p>
+
+      <h2>The benchmark, stated plainly</h2>
+      <ul class="feature-list">
+        <li><strong>26.1% vs gzip's 27.0%</strong> — average compressed size across a 38-file source-code corpus, per-file mode, SHA-256-verified round trips</li>
+        <li><strong>22.9% vs 25.1%</strong> — in whole-codebase mode</li>
+        <li><strong>Honest scope</strong> — the win is on source code; bzip2 still finishes ahead, and the Archiver says so</li>
+      </ul>
+
+      <h2>Features</h2>
+      <ul class="feature-list">
+        <li><strong>Archive whole folders</strong> — one file out, manifest included, every extracted file verified against its hash</li>
+        <li><strong>Store-if-smaller</strong> — files that don't compress are stored raw, never bloated</li>
+        <li><strong>Free</strong> — no accounts, no subscriptions, no gates; good tools should travel</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-links">
+      <a href="https://elliotthornick.github.io/app-support/support.html">Support</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://elliotthornick.github.io/app-support/privacy.html">Privacy Policy</a>
+      <span aria-hidden="true">·</span>
+      <a href="mailto:joshhornick@gmail.com">joshhornick@gmail.com</a>
+    </p>
+    <p class="footer-credits">Elliott Hornick — Creator, design &amp; direction · Spark-e — Lead Programmer</p>
+    <p class="footer-copy">© 2026 Elliott Hornick</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
